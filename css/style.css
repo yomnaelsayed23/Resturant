@@ -65,6 +65,26 @@ body{
 .map{
 	height: 320px;
 }
+@media  (max-width: 430px)  {
+	.carousel-item img{
+		height: 30vh;
+	}
+
+	.carousel-caption h2{
+	display: none !important;
+  }
+	.carousel-caption .slide1-h{
+	display: block !important;
+	color: #ffff !important;
+    font-size: 60px;
+   
+    font-weight: bolder;
+
+  }
+  div .card-body {
+    height: 370px;
+}
+  }
 
 @media screen and (max-width : 1920px){
   .only-mobile{
@@ -104,26 +124,7 @@ footer{
     font-weight: bolder;
   }
 
-@media (min-width: 430px) and (max-width: 730px)  {
-	.carousel-item img{
-		height: 50vh;
-	}
 
-	.carousel-caption h2{
-	display: none !important;
-  }
-	.carousel-caption .slide1-h{
-	display: block !important;
-	color: #ffff !important;
-    font-size: 60px;
-   
-    font-weight: bolder;
-
-  }
-  div .card-body {
-    height: 370px;
-}
-  }
   div .card-body{
 	height: 485px;
   }
